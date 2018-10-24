@@ -787,8 +787,8 @@
 }
 .singleClient{}
 .singleClient{
-    width: 230px;
-    height: 130px;
+    width: 600px;
+    height: 234px;
     margin: auto;
     margin-bottom: 55px;
 }
@@ -1224,16 +1224,12 @@
     background: url("../images/bg/8.jpg") no-repeat scroll center center / cover ;
 }
 .overlayHover{
-    background: rgba(38, 38, 38, 0.3);
+   
     height: 100%;
     left: 0;
     position: absolute;
     top: 0;
-    -webkit-transition: all 300ms ease;
-    -moz-transition: all 300ms ease;
-    -ms-transition: all 300ms ease;
-    -o-transition: all 300ms ease;
-    transition: all 300ms ease;
+    
     width: 100%;
     visibility: hidden;
     opacity: 0;
@@ -1330,18 +1326,10 @@
     -o-transform: translate3d(0, 0, 0);
 }
 .polioThumb img{
-    -webkit-transition: all 300ms ease;
-    -moz-transition: all 300ms ease;
-    -ms-transition: all 300ms ease;
-    -o-transition: all 300ms ease;
-    transition: all 300ms ease;
+    
 }
 .single_folio:hover .polioThumb img{
-    transform: scale(1.08) rotate(-2deg);
-    -moz-transform: scale(1.08) rotate(-2deg);
-    -o-transform: scale(1.08) rotate(-2deg);
-    -ms-transform: scale(1.08) rotate(-2deg);
-    -webkit-transform: scale(1.08) rotate(-2deg);
+    
 }
 .testmonialSec.home_page2{
     background: url("../images/bg/9.jpg") no-repeat fixed center 0 / cover;
